@@ -1,9 +1,6 @@
 :root {
-    --color-main: #1e5afa;
     --color-main-variant: rgba(0, 0, 240, 0.2);
-    --color-white: #fff;
     --color-light: #f4f4f4;
-    --color-black: #000f37;
     --color-dark: #575757;
 
     --bottom-section-padding: 12rem;
@@ -38,7 +35,7 @@ body {
     font-style: normal;
     color: var(--color-dark);
     line-height: 1.7;
-    background: var(--color-white);
+    background: #fff;
     /* background-color: black; */
 }
 
@@ -47,13 +44,13 @@ body {
     margin: 0 auto;
 }
 nav{
-   background-color: (var(--color-main));
+   background-color: #1e5afa;
 }
 
 h1 {
     font-size: 5.6rem;
     line-height: 1;
-    color: var(--color-black);
+    color: #000f37;
 }
 
 h2 {
@@ -78,7 +75,7 @@ h3 {
 
 
 a {
-    color: var(--color-white);
+    color: #fff;
     font-weight: 300;
 }
 
@@ -89,23 +86,23 @@ img {
 .btn {
     display: inline-block;
     padding: 1rem 2.3rem;
-    background: var(--color-white);
-    color: var(--color-black);
+    background: #fff;
+    color: #000f37;
     font-weight: 500;
     border-radius: 0.4rem;
     transition: all 300ms ease;
 }
 
 .btn-main {
-    background: var(--color-black);
-    color: var(--color-white);
+    background: #000f37;
+    color: #fff;
     border: 1px solid transparent;
 }
 
 .btn-main:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-    border-color: var(--color-black);
+    background: #fff;
+    color: #000f37;
+    border-color: #000f37;
 }
 
 .avatar {
@@ -183,7 +180,7 @@ header {
 
 .header_title {
     padding-top: 12rem;
-    color: var(--color-white);
+    color: #fff;
 }
 
 header p {
@@ -244,8 +241,8 @@ header p {
 }
 
 .cta a:hover {
-    background: var(--color-black);
-    color: var(--color-white);
+    background: #000f37;
+    color: #fff;
 }
 
 .header_socials {
@@ -282,7 +279,7 @@ header p {
 }
 
 .about_article-title {
-    color: var(--color-black);
+    color: #000f37;
     margin-bottom: 1.5rem;
 }
 
@@ -310,7 +307,7 @@ header p {
 }
 
 .clients_container div:hover {
-    background: var(--color-white);
+    background: #fff;
 }
 
 /*  Testimonials  */
@@ -336,7 +333,7 @@ header p {
 }
 
 .testimonial:hover {
-    background: var(--color-white);
+    background: #fff;
     border-color: var(--color-main);
     color: var(--color-main);
     box-shadow: 0.2rem 2rem var(--color-main-variant);
@@ -390,7 +387,7 @@ header p {
     border-color: rgb(218, 217, 217);
     box-shadow: 0 2rem 2rem var(--color-light);
     z-index: 1;
-    background-color: var(--color-white);
+    background-color: #fff;
 }
 
 .faq.open .faq_answer {
@@ -419,7 +416,7 @@ header p {
 
 .subscribe_container {
     background: var(--color-main);
-    color: var(--color-white);
+    color: #fff;
     display: flex;
     align-items: center;
     padding: 4rem;
@@ -587,7 +584,7 @@ footer ul li a{
         background: var(--color-main);
         height: 100%;
         width: 100%;
-        box-shadow: -2rem 2rem 3rem Orgba(0,
+        box-shadow: -2rem 2rem 3rem rgba(0,
                 0, 0, 0.2);
         gap: 0;
         z-index:3 ;
@@ -598,7 +595,7 @@ footer ul li a{
     }
 
     .nav_items li a {
-        color: var(--color-white);
+        color: #fff;
         width: 100%;
 
         display: block;
@@ -613,13 +610,13 @@ footer ul li a{
        background-color: white;
     }
     .nav_items li :hover{
-       color: var(--color-black);
+       color: #000f37;
     }
 
 
     .nav_items li a:hover {
         background: var(--color-main);
-        color: var(--color-white);
+        color: #fff;
     }
 
     .nav_signin-signup {
@@ -636,7 +633,7 @@ footer ul li a{
         display: inline-block;
         margin-right: 1.4rem;
         background: transparent;
-        color: var(--color-white);
+        color: #fff;
         cursor: pointer;
     }
 
@@ -664,7 +661,7 @@ footer ul li a{
 
     .cta{
        margin-top:3rem;
-    }
+           }
     .header_socials{
        top:24%;
        gap:1rem;
